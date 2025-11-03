@@ -1,0 +1,537 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+/* HEADER START */
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* basic container code start */
+.container {
+    margin: 0 auto;
+    width: 1370px;
+    background: #F9F9FC;
+}
+
+.container1 {
+    margin: 0 auto;
+    width: 1370px;
+    padding: 50px 0px;
+
+
+}
+
+/* basic container code end */
+
+
+
+/* menu  items start */
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+
+}
+
+.menuBar ul {
+    display: flex;
+    gap: 70px;
+    padding: 20px 0;
+}
+
+.menuBar ul li a {
+    color: black;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.menuBar a:hover{
+transform: scale(0.9);
+}
+/* menu  items end */
+
+
+/* right side button and icon start */
+
+.menuBar .rightButton {
+    display: flex;
+    gap: 5px;
+    background: #5E3BEE;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    align-items: center;
+    transition: all .3s ease;
+
+
+}
+
+.rightButton:hover {
+    scale: 105%;
+}
+
+.logo:hover {
+    transition: all .3s ease;
+    scale: 105%;
+
+}
+
+/* right side button and icon end */
+
+
+/*  horizontal hover line start */
+.menuBar ul li a {
+    position: relative;
+    display: inline-block;
+}
+
+.menuBar ul li a::before,
+.menuBar ul li a::after {
+    position: absolute;
+    content: '';
+    background: #5E3BEE;
+    width: 0%;
+    top: 50%;
+    transition: translateY(-50%);
+    height: 3px;
+    transition: all .3s ease;
+}
+
+.menuBar ul li a::before {
+    right: 105%;
+
+}
+
+.menuBar ul li a::after {
+    left: 105%;
+
+}
+
+.menuBar ul li a:hover::before,
+.menuBar ul li a:hover::after {
+
+    width: 25px;
+
+}
+
+/*  horizontal hover line end */
+
+
+/*  vertical hover line start */
+.menuBar ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.menuBar ul li::before,
+.menuBar ul li::after {
+    position: absolute;
+    content: '';
+    background: #5E3BEE;
+    width: 3px;
+    left: 50%;
+    transition: translateX(-50%);
+    height: 0;
+    transition: all .3s ease;
+}
+
+.menuBar ul li::before {
+    top: 105%;
+
+}
+
+.menuBar ul li::after {
+    bottom: 105%;
+
+}
+
+.menuBar ul li:hover::before,
+.menuBar ul li:hover::after {
+
+    height: 90%;
+
+}
+
+/* HEADER END */
+
+
+/* SECTION 1 START */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 490px;
+    padding: 0 10px;
+
+}
+
+.text h3 {
+    color: #5E3BEE;
+    font-size: 16px;
+    margin-bottom: 32px;
+
+
+}
+
+.text p {
+    font-weight: bold;
+
+
+    font-size: 60px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+
+}
+
+.contactMeBtn {
+    background: #5E3BEE;
+    color: white;
+    padding: 50px 10px;
+    border-radius: 30px;
+    display: flex;
+    gap: 7px;
+
+    border: none;
+}
+
+.contactMeBtn {
+    background: #5E3BEE;
+    color: white;
+    padding: 23px 38px;
+    border-radius: 30px;
+    cursor: pointer;
+
+    border: none;
+}
+
+.contactMeBtn p {
+    font-size: 12px;
+
+}
+
+.downloadBtn {
+    border: none;
+    background: white;
+    display: flex;
+    gap: 7px;
+    padding: 23px 0px;
+    cursor: pointer;
+}
+
+.images {
+    position: relative;
+}
+
+.images .sakib {
+    width: 80%;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.images .polygon {
+    position: absolute;
+    left: -100px;
+    top: 500px;
+
+
+
+}
+
+.hero {
+    display: flex;
+    gap: 180px;
+    height: 100vh;
+
+}
+
+.circle1 {
+    width: 40px;
+    height: 40px;
+    background: #5E3BEE;
+    border-radius: 100%;
+    position: absolute;
+    left: 406px;
+    top: 413px;
+
+}
+
+.circle2 {
+    width: 30px;
+    height: 30px;
+
+    background: #5E3BEE;
+    border-radius: 100%;
+    position: absolute;
+    left: 410px;
+    top: 130px;
+
+}
+
+.circle3 {
+    width: 40px;
+    height: 40px;
+    background: #5E3BEE;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+
+
+}
+
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+.section2 .numRow {
+    display: flex;
+    text-align: center;
+    gap: 130px;
+    justify-content: center;
+}
+
+.numRow h4 {
+    font-size: 30px;
+
+}
+
+.textPart {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.services .textPart h3 {
+    font-size: 20px;
+
+    color: #5E3BEE;
+    text-align: center;
+
+}
+
+.services .textPart h4 {
+    font-size: 40px;
+    padding: 14px 0px;
+
+
+
+}
+
+.textPart p {
+    font-size: 20px;
+    width: 700px;
+    margin: 0 auto;
+
+
+}
+
+.section2 .cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 80px 117px;
+    
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+.card:hover{
+    transform: scale(1.05);
+
+   
+}
+.card {
+     transition: all .4s ease-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 287px;
+    width: 376px;
+    gap: 10px;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+    padding: 3px;
+    box-shadow: 5px 5px 50px rgba(0,0,0,0.1);
+    border-radius: 20px;
+  
+
+}
+.card p{
+    margin-bottom: 50px;
+    padding: 0px 40px;
+    text-align: center;
+}
+.card h5{
+    margin-top: 30px;
+}
+
+/* SECTION 2 END */
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION 1 START */
+/* SECTION 1 END */
+
+
+
+/*  */
+
+
+
+/*  vertical hover line start */
+/*  vertical hover line end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* here is the responsive part start */
+@media (max-width:550px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .menuBar {
+        flex-direction: column;
+        gap: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menuBar ul {
+        flex-direction: column;
+    }
+
+    .hero {
+        width: 100%;
+
+    }
+
+    .left {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+
+    }
+
+    .hero {
+        flex-direction: column;
+        padding-top: 80px;
+        gap: 4px;
+    }
+
+    .text p {
+        font-size: 40px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .images {
+        text-align: center;
+    }
+
+    /*  horizontal hover line start */
+    .menuBar ul li::before,
+    .menuBar ul li::after {
+        display: none;
+    }
+
+
+    .menuBar ul li a::before {
+        position: absolute;
+        content: '';
+        background: #5E3BEE;
+        width: 0%;
+        top: 0;
+        right: 0%;
+        height: 3px;
+        transition: all .3s ease;
+    }
+
+    .menuBar ul li a:hover::before {
+        width: 50%;
+    }
+
+    .menuBar ul li a::after {
+        position: absolute;
+        content: '';
+        background: #5E3BEE;
+        width: 0%;
+        top: 100%;
+        left: 0%;
+        height: 3px;
+        transition: all .3s ease;
+    }
+
+    .menuBar ul li a:hover::after {
+        width: 50%;
+    }
+
+    .menuBar ul li a {
+        position: relative;
+        display: inline-block;
+
+    }
+
+}
+
+/* here is the responsive part end */
