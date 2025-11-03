@@ -58,9 +58,11 @@ a {
     text-transform: uppercase;
     transition: all .3s ease;
 }
-.menuBar a:hover{
-transform: scale(0.9);
+
+.menuBar a:hover {
+    transform: scale(0.9);
 }
+
 /* menu  items end */
 
 
@@ -350,20 +352,22 @@ transform: scale(0.9);
     justify-content: center;
     gap: 70px;
     margin: 80px 117px;
-    
+
 }
 
 .card img {
     width: 50px;
     height: 50px;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.05);
 
-   
+
 }
+
 .card {
-     transition: all .4s ease-out;
+    transition: all .4s ease-out;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -375,17 +379,19 @@ transform: scale(0.9);
 
     align-items: center;
     padding: 3px;
-    box-shadow: 5px 5px 50px rgba(0,0,0,0.1);
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-  
+
 
 }
-.card p{
+
+.card p {
     margin-bottom: 50px;
     padding: 0px 40px;
     text-align: center;
 }
-.card h5{
+
+.card h5 {
     margin-top: 30px;
 }
 
