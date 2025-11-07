@@ -1,0 +1,378 @@
+/* here is the responsive part start */
+@media (max-width:430px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .menuBar {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        text-align: center;
+        padding: 37px 24px;
+    }
+
+    .menuBar ul {
+        display: none;
+    }
+
+    /* here is the responsive hero part */
+    .hero {
+        width: 100%;
+
+    }
+
+    .left {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+
+    }
+
+    .text h1 {
+        font-weight: bold;
+        width: 365px;
+        color: #333333;
+        line-height: 64px;
+
+
+        font-size: 37 px;
+    }
+
+    .text h3 {
+        padding-top: 36px;
+        padding-bottom: 21px;
+        color: #5E3BEE;
+
+
+    }
+
+    .hero .left .mobileButton {
+
+        flex-direction: column;
+        padding: 20px 77px;
+    }
+
+    .hero {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+
+
+    .images {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .images .sakib {
+        width: 100%;
+        margin-top: 30px;
+
+
+
+    }
+
+
+
+    /* section 2 responsive part start */
+
+    /* ---- FIX FOR SERVICES SECTION ---- */
+    .section2 .numRow {
+        display: flex;
+        width: 356px;
+        flex-wrap: wrap;
+        gap: 57px;
+        padding-left: 50px;
+    }
+
+    .section2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .section2 .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .section2 .textPart {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .section2 .textPart h3,
+    .section2 .textPart h4,
+    .section2 .textPart p {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+
+    .section2 .mobileCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .section2 .mobileCards .card {
+        width: 85%;
+        max-width: 368px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+    /* section 2 responsive part end */
+
+
+    /* section 3  start */
+    .section3 .leftText {
+        display: flex;
+        flex-direction: column;
+        width: 368px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0px 0px;
+        text-align: center;
+        margin-top: 60px;
+        align-items: center;
+
+    }
+
+    .section3 .rightSide {
+        display: none;
+    }
+
+    .section3 {
+        margin: 0 auto;
+        display: flex;
+        width: 368px;
+        flex-direction: column;
+    }
+
+
+    .section3 .leftText p {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.5px;
+    }
+
+    .section3 .leftText h5 {
+        color: #5E3BEE;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.5px;
+
+    }
+
+    .section3 .leftText button {
+        margin-top: 40px;
+
+    }
+
+    .section3 .leftText h2 {
+        padding: 22px 0;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 78px;
+
+
+
+
+
+
+
+        /* section 3  end */
+
+        /*  horizontal hover line start */
+        .menuBar ul li::before,
+        .menuBar ul li::after {
+            display: none;
+        }
+
+
+        .menuBar ul li a::before {
+            position: absolute;
+            content: '';
+            background: #5E3BEE;
+            width: 0%;
+            top: 0;
+            right: 0%;
+            height: 3px;
+            transition: all .3s ease;
+        }
+
+        .menuBar ul li a:hover::before {
+            width: 50%;
+        }
+
+        .menuBar ul li a::after {
+            position: absolute;
+            content: '';
+            background: #5E3BEE;
+            width: 0%;
+            top: 100%;
+            left: 0%;
+            height: 3px;
+            transition: all .3s ease;
+        }
+
+        .menuBar ul li a:hover::after {
+            width: 50%;
+        }
+
+        .menuBar ul li a {
+            position: relative;
+            display: inline-block;
+
+        }
+
+    }
+
+    /* counter logos part start */
+    .logos {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        width: 100%;
+        padding: 10px;
+        margin-top: 100px;
+        gap: 30px;
+
+    }
+
+    .logos img {
+        width: 150px;
+        height: 44px;
+    }
+
+    /* counter logos part end */
+
+    /* grid boxes part start */
+    .gridBox {
+
+        grid-template-columns: repeat(1, 1fr);
+  
+    }
+
+    .gridBox .headingTxt {
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .gridBox .headingTxt h5 {
+        color: #5E3BEE;
+        padding: 20px 0px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+
+
+    }
+
+    .gridBox .headingTxt h3 {
+        font-size: 35px;
+  
+
+    }
+
+    .gridCard {
+        height: 330px;
+        width: 350px;
+        background: linear-gradient(to bottom, #C4C4C4 0px, #C4C4C4 245px, white 245px, white 100%);
+        box-shadow: 37px 37px 80px rgba(0, 0, 0, 0.1);
+     
+    }
+
+    .cell2 p {
+        text-align: center;
+        padding: 10px 10px;
+   
+    }
+
+
+
+    /* grid boxes part end */
+    /* client section start */
+    
+.clientSection .text h2 {
+    font-size: 40px;
+
+
+}
+.clientSection .text p {
+width: 350px;
+
+}
+.reviewCard{
+    flex-direction: column;
+}
+ .clientSection .reviews{
+width: 365px;
+height: 430px;
+}
+ .clientSection .reviews p{
+width: 115%;
+}
+
+    /* client section end */
+    /* contact section start */
+    .contact h2{
+            font-size: 38px;
+    line-height: 53px;
+    letter-spacing: .5%;
+    padding: 0px 11px;
+    text-align: center;
+    color: #333333;
+    width: 314px;
+    height: 208px;
+    margin: 0 auto;
+    }
+    #btn{
+            padding: 22px 113px;
+            margin: 0 auto;
+    }
+    /* contact section end */
+    /* footer section start */
+    .footerRight{
+        width: 68%;
+    }
+    .footer{
+   background: #333333;
+    display: flex;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    flex-direction: column;
+
+    }
+    .footerLeft{
+        width: 101%;
+    padding: 79px 0 0 0px;
+    }
+    /* footer section end */
+
+
+}
+
+/* here is the responsive part end */

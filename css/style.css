@@ -191,14 +191,6 @@ a {
 
 }
 
-.text h3 {
-    font-size: 16px;
-    color: #5E3BEE;
-    line-height: 26px;
-    letter-spacing: 1.5px;
-  
-
-}
 
 .text h1 {
     font-weight: bold;
@@ -209,6 +201,9 @@ a {
 
     font-size: 60px;
 }
+
+
+
 
 .buttons {
     display: flex;
@@ -926,99 +921,3 @@ font-size: 16px;
 
 
 
-
-/* here is the responsive part start */
-@media (max-width:550px) {
-    .container {
-        width: 100%;
-
-    }
-
-    .menuBar {
-        flex-direction: column;
-        gap: 40px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .menuBar ul {
-        flex-direction: column;
-    }
-
-    .hero {
-        width: 100%;
-
-    }
-
-    .left {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 20px auto;
-
-    }
-
-    .hero {
-        flex-direction: column;
-        padding-top: 80px;
-        gap: 4px;
-    }
-
-    .text p {
-        font-size: 40px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .images {
-        text-align: center;
-    }
-
-    /*  horizontal hover line start */
-    .menuBar ul li::before,
-    .menuBar ul li::after {
-        display: none;
-    }
-
-
-    .menuBar ul li a::before {
-        position: absolute;
-        content: '';
-        background: #5E3BEE;
-        width: 0%;
-        top: 0;
-        right: 0%;
-        height: 3px;
-        transition: all .3s ease;
-    }
-
-    .menuBar ul li a:hover::before {
-        width: 50%;
-    }
-
-    .menuBar ul li a::after {
-        position: absolute;
-        content: '';
-        background: #5E3BEE;
-        width: 0%;
-        top: 100%;
-        left: 0%;
-        height: 3px;
-        transition: all .3s ease;
-    }
-
-    .menuBar ul li a:hover::after {
-        width: 50%;
-    }
-
-    .menuBar ul li a {
-        position: relative;
-        display: inline-block;
-
-    }
-
-}
-
-/* here is the responsive part end */
