@@ -1,5 +1,5 @@
 /* here is the responsive part start */
-@media (max-width:430px) {
+@media (max-width:600px) {
     .container {
         width: 100%;
 
@@ -11,6 +11,12 @@
         justify-content: space-between;
         text-align: center;
         padding: 37px 24px;
+    }
+    .menuBar .rightButton {
+        display: none;
+    }
+    .menuBar  i {
+        display: block;
     }
 
     .menuBar ul {
@@ -139,7 +145,10 @@
         margin: 0 auto;
         text-align: center;
     }
-
+.card img{
+    margin-top: 49px;
+    margin-bottom: 25px;
+}
 
     /* section 2 responsive part end */
 
@@ -349,30 +358,184 @@ width: 115%;
     height: 208px;
     margin: 0 auto;
     }
-    #btn{
-            padding: 22px 113px;
-            margin: 0 auto;
-    }
-    /* contact section end */
-    /* footer section start */
-    .footerRight{
-        width: 68%;
-    }
-    .footer{
-   background: #333333;
-    display: flex;
-    border-radius: 30px 30px 0 0;
-    position: relative;
-    flex-direction: column;
+#btn {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;
+  width: 100%;               /* take full width of container */
+  margin: 20px 0;
+  padding: 0;
+}
 
+.contactMeBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 30px;
+  font-size: 16px;
+  background: #5E3BEE;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+ 
+    /* contact section end */
+    /* responsive footer section start */
+   .footer {
+    background: #333333;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px 30px 0 0;
+
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height:fit-content;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+            padding-left: 0px;
+        padding-bottom: 0px;
+        gap: 5px;
     }
-    .footerLeft{
-        width: 101%;
-    padding: 79px 0 0 0px;
-    }
-    /* footer section end */
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    
+   
+    margin: 0 auto;
+    padding: 4px 30px;
+    justify-content: center;
+}
+
+.footerLeft p {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: .5%;
+    line-height: 32px;
+    padding: 40px 0px;
+    text-align: center;
+  
+    margin: 0 auto;
 
 
 }
+.footerLeft {
+
+    width: 100%;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+        padding: 50px 30px 0 30px;
+
+}
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 209px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.mail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(182, 180, 180);
+    font-size: 20px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+    padding: 30px 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+
+}
+
+.icons {
+
+    color: white;
+    display: flex;
+    gap: 50px;
+align-items: center;
+}
+
+.icons i {
+    size: 50;
+
+
+}
+
+.footerLeft .footerRight {
+    border-bottom: 2px solid gray;
+}
+
+.footer::before {
+    position: absolute;
+    content: '';
+    width: 87%;
+    height: 2px;
+    left: 25px;
+    background: rgb(108, 114, 108);
+    top: 80%;
+
+}
+.copyright {
+    display: flex;
+  position: absolute;
+  flex-direction: column;
+  bottom: 50px;
+  justify-content: space-between;
+
+  font-size: 14px;
+  color: #ccc;
+  gap: 30px;
+  padding-right: 20px 10px;
+      margin-top: 30px;
+      padding-left: 30px;
+
+}
+.copyright ul{
+    display: flex;
+    color: rgb(20, 18, 18);
+    gap: 20px;
+    
+
+}
+.copyright ul li a{
+color:#ccc;
+font-size: 16px;
+text-transform: uppercase;
+
+}
+
+
+/* responsive footer end */
+
+
+}
+
+
+
+
+
 
 /* here is the responsive part end */
