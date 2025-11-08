@@ -360,9 +360,9 @@ width: 115%;
     }
 #btn {
   display: flex;
-  justify-content: center;   /* center horizontally */
+  justify-content: center; 
   align-items: center;
-  width: 100%;               /* take full width of container */
+  width: 100%;               
   margin: 20px 0;
   padding: 0;
 }

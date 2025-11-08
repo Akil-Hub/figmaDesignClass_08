@@ -508,7 +508,7 @@ letter-spacing: 0.5px;
 
 .gridBox {
 
-    margin: 45px auto;
+    margin: 45px 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: max-content;
