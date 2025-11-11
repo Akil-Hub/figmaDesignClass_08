@@ -462,16 +462,24 @@ letter-spacing: 0.5px;
 
 }
 
-.section3 .rightSide img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+.section3 .rightSide{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
 
+    
+}
+#maskGroup{
+    position: absolute;
+    
+    bottom: 130px;
+    right: 20%;
+
+}
 #polygon2 {
     position: absolute;
     top: 110px;
-    right: 370px;
+    right: 500px;
 
 }
 
