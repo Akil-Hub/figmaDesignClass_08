@@ -508,7 +508,7 @@ letter-spacing: 0.5px;
 
 .gridBox {
 
-    margin: 45px 5px;
+    margin: 45px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: max-content;
@@ -517,15 +517,15 @@ letter-spacing: 0.5px;
 
 }
 
-.gridBox .headingTxt {
-    box-sizing: border-box;
-}
+
 .gridBox .headingTxt .cell1,.cell2 {
 height: 140px;}
 
 .gridBox .headingTxt h5 {
+    text-transform: uppercase;
     color: #5E3BEE;
-    padding: 20px 0px;
+    font-size: 18px;
+    padding: 60px 0px 20px 20px;
 
 
 }
@@ -535,6 +535,8 @@ height: 140px;}
     font-weight: 600;
     line-height: 56px;
     letter-spacing: 0.5%;
+        padding: 0px 0px 20px 15px;
+
 
 }
 

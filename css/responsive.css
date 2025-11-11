@@ -283,7 +283,7 @@
     .gridBox {
 
         grid-template-columns: repeat(1, 1fr);
-        margin: 40px 10px;
+        margin: 40px auto;
   
     }
 
